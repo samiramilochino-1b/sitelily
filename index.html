@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promo Água Fresh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header>
+    <h1>💧 Água Fresh</h1>
+    <p>Promoção Especial de Garrafas de Água</p>
+    <div class="cart">
+      🛒 Carrinho: <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2>Leve 3 e pague 2!</h2>
+    <p>Oferta válida somente hoje.</p>
+  </section>
+
+  <main class="products">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1564419320461-6870880221ad?q=80&w=800&auto=format&fit=crop" alt="Garrafa 500ml">
+      <h3>Garrafa 500ml</h3>
+      <p>Água mineral natural.</p>
+      <span>R$ 3,00</span>
+      <button onclick="addToCart()">Comprar</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=800&auto=format&fit=crop" alt="Garrafa 1L">
+      <h3>Garrafa 1L</h3>
+      <p>Refrescante e pura.</p>
+      <span>R$ 5,00</span>
+      <button onclick="addToCart()">Comprar</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?q=80&w=800&auto=format&fit=crop" alt="Garrafa 2L">
+      <h3>Garrafa 2L</h3>
+      <p>Ideal para família.</p>
+      <span>R$ 8,00</span>
+      <button onclick="addToCart()">Comprar</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Água Fresh - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
